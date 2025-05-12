@@ -1,0 +1,67 @@
+
+
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    align-items:flex-start;
+    background-color: blueviolet;
+    display: flex;
+    font-family: "Dosis", sans-serif ;
+    
+    font-display: swap;
+    height: 80%;
+
+    justify-content: center;
+
+
+    
+
+}
+.wrapper{
+  
+   background-color: rgb(42, 41, 41);
+    border-radius: 5%;
+    box-shadow: 0 4px 30px;
+    flex-basis: 400px;
+    height: 100%;
+    padding: 30px 40px;
+}
+.screen{
+
+    background: rgb(208, 204, 204);
+    border-radius: 20px;
+    height: 40px;
+    font-size: 380%;
+    padding: 40px;
+    text-align: right;
+}
+.calc-buttons-row{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.calc-button{
+    border-radius: 20%;
+    height: 80px ;
+    flex-basis: 20%;
+    font-size: 25px;
+}
+.calc-button:active{
+
+   background-color: red;
+}
+.triple{
+  border-radius: 40px;
+    flex-basis: 290px;
+}
+.double{
+    border-radius: 40px;
+    flex-basis: 180px;
+}
