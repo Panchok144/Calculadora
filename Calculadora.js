@@ -15,8 +15,8 @@ document.querySelectorAll('.calc-button').forEach(boton =>{
                 
                 break;
             case '<-':
-                operacion = operacion.slice(0, -1);
-                ActualizarPantalla(operacion);
+              
+               
 
                 break;
 
@@ -45,7 +45,7 @@ document.querySelectorAll('.calc-button').forEach(boton =>{
 
 function convertirSimbolos(simbolo) {
     switch (simbolo) {
-        case '×':
+        case 'x':
      
             return '*';
         case '÷':
@@ -54,14 +54,14 @@ function convertirSimbolos(simbolo) {
         case '+':
       
             return '+';
-        case '−':
+        case '-':
       
             return '-';
         case '=':
       
             return '';
         case '←':
-        case '&larr;':
+        case '&larr':
             return '';
         default:
             return simbolo;
